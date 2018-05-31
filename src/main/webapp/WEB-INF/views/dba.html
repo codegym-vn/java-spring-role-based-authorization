@@ -8,7 +8,7 @@
 <body>
 <h1> Dear <span th:text="${user}"></span> Welcome to DBA Page</h1>
 <div sec:authorize="isAuthenticated()">
-    <a th:href="@{/}">Home</a> | <a th:href="@{/logout}">Logout</a>
+    <a th:href="@{/admin}">admin</a> | <a th:href="@{/logout}">Logout</a>
 </div>
 </body>
 </html>

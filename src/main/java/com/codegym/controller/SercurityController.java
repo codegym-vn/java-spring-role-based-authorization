@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @Controller
-public class HelloWorldController {
+public class SercurityController {
 
     private String getPrincipal(){
         String userName = null;
