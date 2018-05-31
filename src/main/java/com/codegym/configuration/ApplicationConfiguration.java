@@ -22,7 +22,7 @@ import org.thymeleaf.templatemode.TemplateMode;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "com.codegym")
-public class HelloWorldConfiguration extends WebMvcConfigurerAdapter implements ApplicationContextAware {
+public class ApplicationConfiguration extends WebMvcConfigurerAdapter implements ApplicationContextAware {
 	
 	@Bean(name="HelloWorld")
 	public SpringResourceTemplateResolver templateResolver() {
